@@ -1,4 +1,4 @@
-#! usr/bin/env node
+#! /usr/bin/env node
 
 import inquirer from "inquirer";
 
@@ -11,10 +11,10 @@ const answers = await inquirer.prompt ([
     },
 ]);
 
-if(answers.Userguessednumber === randomNumber){
+if
+    (answers.Userguessednumber === randomNumber){
     console.log("Congratulations! You guessed write number.")
 }
-
 else{
     console.log("You guessed wrong number");
 }
